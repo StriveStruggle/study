@@ -27,6 +27,7 @@ public class Test {
         String s = "abc";
         System.out.println("cis.equals(s):" + cis.equals(s));
         System.out.println("s.equals(cis):" + s.equals(cis));
+        System.out.println("s.equals(cis):" + s.equals(cis));
         List<CaseinsensitiveString> list = new ArrayList<>();
         list.add(cis);
         System.out.println("list.contains(s):" + list.contains(s));
